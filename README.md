@@ -1,3 +1,5 @@
+![NEXORA — Business OS + AI](docs/assets/nexora-banner.webp)
+
 # NEXORA
 > Cobra. Administra. Comprende. Crece.
 
