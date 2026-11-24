@@ -1,2 +1,2 @@
 # NEXORA Web
-Planned React + Vite + TypeScript frontend. Implementation pending.
+React + Vite + TypeScript demo. Run `npm install` then `npm run dev` in this directory. Use a Node.js version supported by Vite 7. `npm run build` type-checks and builds. Data is synthetic and held in memory; reload resets it. No payment, authentication, backend or Grok API is connected. Dependency installation and build have not yet been verified. Dashboard visual concept implemented with responsive CSS.
