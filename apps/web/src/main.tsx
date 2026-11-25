@@ -2,6 +2,7 @@ import {useState} from 'react';
 import {createRoot} from 'react-dom/client';
 import './style.css';
 const money=(n:number)=>new Intl.NumberFormat('es-MX',{style:'currency',currency:'MXN'}).format(n);
+// Synthetic product fixtures for the local demo.
 const products=[{name:'Latte caramelo',price:65,cost:20,stock:24},{name:'Cold Brew',price:55,cost:18,stock:16},{name:'Pan de plátano',price:45,cost:17,stock:4},{name:'Combo desayuno',price:129,cost:50,stock:12}];
 const seed=[{name:'Latte caramelo',price:65,cost:20,method:'QR CoDi'},{name:'Cold Brew',price:55,cost:18,method:'Enlace'},{name:'Pan de plátano',price:45,cost:17,method:'NFC (enlace)'},{name:'Combo desayuno',price:129,cost:50,method:'QR CoDi'}];
 const nav=['Resumen','Punto de venta','Pagos','Inventario','Clientes (CRM)','Finanzas','Grok'];
