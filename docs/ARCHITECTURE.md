@@ -1,5 +1,5 @@
 # Proposed architecture
-Browser (React/Vite) → NestJS API → PostgreSQL. Server adapters connect Pey and xAI. Supabase Auth is the proposed identity provider.
+Browser (React/Vite) → NestJS API (`apps/api`, implemented: tenancy, catalog, POS orders, cash payments, metrics) → PostgreSQL (`database/migrations`, row level security). Server adapters connect Pey and xAI. Supabase Auth is the proposed identity provider.
 
 ## Modules
 Payments, POS, catalog, inventory, CRM, analytics, authentication and audit. Start with a modular monolith.
